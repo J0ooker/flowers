@@ -1,0 +1,84 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header and navigation styles */
+header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav form {
+    display: flex;
+    align-items: center;
+}
+
+nav form input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('flower.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.flower-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.flower-option {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.flower-option img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
